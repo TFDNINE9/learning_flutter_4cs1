@@ -212,9 +212,6 @@ class _MainPageState extends State<MainPage> {
     'sale',
     'order',
     'import',
-    'export',
-    'search',
-    'report'
   ];
 
   final List<IconData> tabIcons = [
@@ -222,9 +219,6 @@ class _MainPageState extends State<MainPage> {
     Icons.point_of_sale,
     Icons.shopping_cart,
     Icons.download,
-    Icons.upload,
-    Icons.search,
-    Icons.bar_chart,
   ];
 
   final List<Color> iconColors = [
@@ -232,9 +226,6 @@ class _MainPageState extends State<MainPage> {
     Colors.green,
     Colors.orange,
     Colors.purple,
-    Colors.red,
-    Colors.teal,
-    Colors.indigo,
   ];
 
   final List<double> iconSizes = List.filled(7, 24.0);
